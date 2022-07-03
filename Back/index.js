@@ -27,7 +27,7 @@ cron.schedule("0 8 * * *", () => {
 app.use(express.json());
 
 app.use("/api/user", userRouter);
-app.use("/api/dollar", dollarRouter);
+app.use("/api/dollar-price", dollarRouter);
 
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
