@@ -7,8 +7,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import { ARS_TYPE, USD_TYPE } from "../constants/currency";
 
 const initialState = {
-  [ARS_TYPE]: 400000,
-  [USD_TYPE]: 0,
+  [ARS_TYPE]: 0,
+  [USD_TYPE]: 463.66,
 };
 
 export const moneySlice = createSlice({

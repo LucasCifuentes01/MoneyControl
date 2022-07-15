@@ -4,10 +4,10 @@
 // immutable state based off those changes
 
 import { createSlice } from "@reduxjs/toolkit";
-import { USD } from "../constants/currency";
+import { USD_TYPE } from "../constants/currency";
 
 const initialState = {
-  [USD]: 0,
+  [USD_TYPE]: 238,
 };
 
 export const currencySlice = createSlice({
