@@ -7,7 +7,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { USD_TYPE } from "../constants/currency";
 
 const initialState = {
-  [USD_TYPE]: 238,
+  [USD_TYPE]: 283,
 };
 
 export const currencySlice = createSlice({

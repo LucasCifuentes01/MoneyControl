@@ -1,3 +1,5 @@
+import "intl";
+import "intl/locale-data/jsonp/es-ES";
 import { ARS_TYPE } from "../constants/currency";
 
 export const useCurrency = ({
